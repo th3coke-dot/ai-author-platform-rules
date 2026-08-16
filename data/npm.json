@@ -1,0 +1,27 @@
+{
+  "platform": "npm",
+  "slug": "npm",
+  "account_creator": "You must be at least 13 years of age. Creating an Account requires, at minimum, a valid email address via the website or CLI signup form. You must not impersonate any other individual. The privacy policy states you do not have to give a legal name and may use a pseudonym. You must verify the email address before publishing packages.",
+  "ai_content_allowed": "yes_with_conditions",
+  "disclosure_rule": "The fetched Open-Source Terms (last updated March 10, 2022) do not impose an AI-specific disclosure for packages. Packages must be functionally compatible with the CLI, must not be malware or name-squatting, and must not infringe others IP. You remain solely responsible for Your Content and how you license it.",
+  "payout_kyc": "There is no charge for the public Open Source registry, and the registry operator does not pay package publishers. Paid Services are under separate private terms. Publishing to the public registry does not require tax ID or government-ID KYC on the fetched pages.",
+  "copyright_notes": "Nothing in the Agreement gives the registry operator ownership of Your Content. You decide whether and how to license it, but you license the operator to copy, publish, and analyze packages you share. USCO Part 2 (January 2025): purely AI-generated material is not copyrightable; prompts alone are not enough.",
+  "human_must": [
+    "Create the account (13+) with a valid email and accept the Open-Source Terms.",
+    "Verify the email before publishing.",
+    "Do not impersonate another individual.",
+    "License each package; do not upload malware or reserve names."
+  ],
+  "source_url": "https://docs.npmjs.com/policies/open-source-terms",
+  "accessed": "2026-08-16",
+  "quote": "To create an Account, you must provide certain information about yourself, as required by the account creation form on the Website or the CLI. If you create an Account, you will provide, at a minimum, a valid email address. You will not impersonate any other individual.",
+  "additional_sources": [
+    {
+      "source_url": "https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf",
+      "accessed": "2026-08-16",
+      "role": "US copyrightability of AI output",
+      "quote": "Copyright does not extend to purely AI-generated material, or material where there is insufficient human control over the expressive elements. Based on the functioning of current generally available technology, prompts do not alone provide sufficient control."
+    }
+  ],
+  "notes": "Open-Source Terms last updated March 10, 2022 on the fetched page."
+}

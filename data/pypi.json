@@ -1,0 +1,33 @@
+{
+  "platform": "PyPI",
+  "slug": "pypi",
+  "account_creator": "A human must create the Account. Accounts registered by bots or other automated methods are not permitted. Machine accounts are only grandfathered if they pre-date Upload tokens (2019) and Organization accounts (2025), and even then a human must set them up, accept the Terms, provide a valid email, and remain responsible. A valid email and username are required.",
+  "ai_content_allowed": "yes_with_conditions",
+  "disclosure_rule": "The fetched PyPI Terms of Service do not impose an AI-specific disclosure for packages. You must have the right to post the Content, comply with third-party licenses, and not violate the Acceptable Use Policy or applicable law (including copyright).",
+  "payout_kyc": "PyPI does not pay package authors. Free Accounts are not required to provide payment information. Paid Organization hosting, if used, requires a valid payment method and billing information.",
+  "copyright_notes": "You retain ownership of and responsibility for Your Content. Uploads are on a non-confidential basis. If Content is not under an Included License, you grant PSF and other users an irrevocable, worldwide, royalty-free license to reproduce and publish it on the Service. USCO Part 2 (January 2025): purely AI-generated material is not copyrightable; prompts alone are not enough.",
+  "human_must": [
+    "Create the PyPI account as a human (do not register by bot).",
+    "Own any machine account that still exists and accept the Terms for it.",
+    "Provide a valid email and keep the account secure (2FA is offered).",
+    "Only upload Content you have the right to license."
+  ],
+  "source_url": "https://policies.python.org/pypi.org/Terms-of-Service/",
+  "accessed": "2026-08-16",
+  "quote": "You must be a human to create an Account. Accounts registered by \"bots\" or other automated methods are not permitted. Machine accounts may be permitted if they pre-date features designed to fulfill similar duties such as Upload tokens (2019) and Organization accounts (2025).",
+  "additional_sources": [
+    {
+      "source_url": "https://policies.python.org/pypi.org/Terms-of-Service/",
+      "accessed": "2026-08-16",
+      "role": "Machine-account human ownership",
+      "quote": "A machine account is an Account set up by an individual human who accepts the Terms on behalf of the Account, provides a valid email address, and is responsible for its actions."
+    },
+    {
+      "source_url": "https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf",
+      "accessed": "2026-08-16",
+      "role": "US copyrightability of AI output",
+      "quote": "Copyright does not extend to purely AI-generated material, or material where there is insufficient human control over the expressive elements. Based on the functioning of current generally available technology, prompts do not alone provide sufficient control."
+    }
+  ],
+  "notes": "PyPI Terms effective date on the fetched page: February 25, 2025 (page also shows April 10, 2025)."
+}

@@ -1,0 +1,33 @@
+{
+  "platform": "Hugging Face",
+  "slug": "huggingface",
+  "account_creator": "A natural person at least 13 years old, or a duly registered legal entity. A person creating an Organization account must have authority to bind that entity. Account information (email, password, username, full name) must be accurate and valid.",
+  "ai_content_allowed": "yes",
+  "disclosure_rule": "The Hub is built for sharing Models, Datasets, and Machine Learning Applications; AI-generated models and datasets are not banned. Content must not be misleading or unlawful and must not infringe others' rights. Unauthorized bot APIs, remote management tools, and incentivized manipulation of Hub metrics (for example exchanging rewards for likes) are banned.",
+  "payout_kyc": "Publishing models, datasets, or Spaces does not create a Hugging Face payout. Paid Services are billed through a third-party payment or credit-card processor; the processor's agreement governs the designated account or card. There is no creator-payout KYC in the fetched Terms for Hub publishing.",
+  "copyright_notes": "You own the Content you create. By posting, you grant Hugging Face a worldwide, royalty-free, non-exclusive license to use the Content to provide the Services; public Repositories also grant each User a perpetual license to use that Content through the Services. Customary open-source notices stay with the Content. USCO Part 2 (January 2025): purely AI-generated material is not copyrightable in the United States; prompts alone are not enough.",
+  "human_must": [
+    "Create the account as a natural person 13+ or as an authorized representative of a registered legal entity.",
+    "Keep the password confidential; do not hand the account to an unsupervised bot.",
+    "Do not use unauthorized bot APIs or manipulate Hub metrics.",
+    "License Hub artifacts so others know what they may do with them."
+  ],
+  "source_url": "https://huggingface.co/terms-of-service",
+  "accessed": "2026-08-16",
+  "quote": "In order to create an Account for yourself or for your Organization on our Website, you must be a natural person of at least age 13, or a legal entity duly registered.",
+  "additional_sources": [
+    {
+      "source_url": "https://huggingface.co/content-policy",
+      "accessed": "2026-08-16",
+      "role": "Unauthorized bots and metric manipulation",
+      "quote": "Abuse or interference with Hugging Face services, including: Using unauthorized bot APIs or remote management tools. Hosting excessive or irrelevant data in repositories. Using tools like Cloudflare Tunnel, TOR, proxies, VNC, Chrome Remote Server, etc., to bypass restrictions. Incentivizing manipulation of Hugging Face Hub metrics (e.g., exchanging rewards for likes)."
+    },
+    {
+      "source_url": "https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf",
+      "accessed": "2026-08-16",
+      "role": "US copyrightability of AI output",
+      "quote": "Copyright does not extend to purely AI-generated material, or material where there is insufficient human control over the expressive elements. Based on the functioning of current generally available technology, prompts do not alone provide sufficient control."
+    }
+  ],
+  "notes": "Terms of Service effective date on the fetched page: September 15, 2022. Content Policy effective date: April 10, 2025."
+}

@@ -1,0 +1,33 @@
+{
+  "platform": "GitHub",
+  "slug": "github",
+  "account_creator": "A human must create the account. GitHub forbids accounts registered by bots or other automated methods. Machine accounts are allowed only if an individual human sets them up, accepts the Terms, provides a valid email, and remains responsible. Users must be 13 or older. One person or legal entity may maintain no more than one free Account (plus one free machine account).",
+  "ai_content_allowed": "yes_with_conditions",
+  "disclosure_rule": "GitHub's Terms do not require a public AI-content label on repositories. You own Your Content and are responsible for it, including Output from GitHub AI Features. You must have the right to post any content you did not create, and you are responsible for determining whether use of AI Output requires a third-party license.",
+  "payout_kyc": "GitHub itself does not pay authors for repository content. Free Accounts are not required to provide payment information. Paid Accounts require a valid payment method and billing information (Terms section L). For receiving money, use GitHub Sponsors (separate record) or another payout rail.",
+  "copyright_notes": "You own Your Content (Terms section D.3). GitHub does not claim ownership of AI Feature Input or Output (Terms section J.2). Output may resemble third-party or training-data material; you are responsible for licenses. US Copyright Office, Copyright and Artificial Intelligence Part 2: Copyrightability (January 2025): raw AI output is not copyrightable; prompts alone are not enough.",
+  "human_must": [
+    "Create the GitHub account (or set up any machine account) and accept the Terms.",
+    "Provide and keep a valid email address.",
+    "Remain responsible for all activity, including automated tasks run under a machine account.",
+    "Review AI Output before publishing and confirm you have rights to post it."
+  ],
+  "source_url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+  "accessed": "2026-08-16",
+  "quote": "You must be a human to create an Account. Accounts registered by \"bots\" or other automated methods are not permitted. We do permit machine accounts: A machine account is an Account set up by an individual human who accepts the Terms on behalf of the Account, provides a valid email address, and is responsible for its actions.",
+  "additional_sources": [
+    {
+      "source_url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+      "accessed": "2026-08-16",
+      "role": "Effective date and AI Output responsibility",
+      "quote": "Effective date: April 27, 2026. GitHub does not claim ownership of your Input or Output. You are responsible for reviewing, testing, and validating any Output before use."
+    },
+    {
+      "source_url": "https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf",
+      "accessed": "2026-08-16",
+      "role": "US copyrightability of AI output",
+      "quote": "Copyright does not extend to purely AI-generated material, or material where there is insufficient human control over the expressive elements. Based on the functioning of current generally available technology, prompts do not alone provide sufficient control."
+    }
+  ],
+  "notes": "ToS fetched 2026-08-16; effective date on the page is April 27, 2026."
+}

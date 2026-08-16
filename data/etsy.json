@@ -1,0 +1,33 @@
+{
+  "platform": "Etsy",
+  "slug": "etsy",
+  "account_creator": "You must be 18 or older to use Etsy. Minors 13-17 may use Services only through a parent or legal guardian account, with permission and direct supervision. Children under 13 are not permitted. Provide accurate information; false information and impersonation are prohibited. If registering as a business, you personally guarantee authority to bind the business. The person whose financial information is on the account is responsible for all activity.",
+  "ai_content_allowed": "yes_with_conditions",
+  "disclosure_rule": "Seller-prompted AI creations are a listed subcategory of Designed by a seller: creations generated using AI tools based on a seller original prompts. Sellers must disclose within their listing description if an item is created with the use of AI. AI prompt bundles do not qualify as designed by a seller. Creativity Standards last updated 10 June 2025 on the fetched page.",
+  "payout_kyc": "The fetched Terms of Use require an 18+ (or parent-supervised 13-17) account, accurate identity, and place financial responsibility on the person whose financial information is on the account. Sellers must pay Etsy fees and remain responsible for applicable taxes that Etsy does not collect. Etsy did not publish a government-ID checklist on the two official pages fetched for this record; treat payout onboarding as a human task and complete whatever identity and bank verification Etsy or its payment partners currently request in Shop Manager.",
+  "copyright_notes": "You are solely responsible for Your Content and represent you have all necessary rights. Creativity Standards require a human touch; seller-prompted AI work is allowed only with disclosure. USCO Part 2 (January 2025): purely AI-generated material is not copyrightable; prompts alone are not enough.",
+  "human_must": [
+    "Create the Etsy account as an 18+ individual or authorized business representative (or a parent for a 13-17 seller).",
+    "Put truthful identity and financial information on the account.",
+    "For AI-made items: list them as Designed by a seller and disclose AI use in the listing description.",
+    "Do not list AI prompt bundles as original designs."
+  ],
+  "source_url": "https://www.etsy.com/legal/creativity",
+  "accessed": "2026-08-16",
+  "quote": "Seller-prompted AI creations: Creations that were generated using AI tools (e.g., AI image generators such as Dall-E) based on a seller’s original prompts. Sellers must disclose within their listing description if an item is created with the use of AI.",
+  "additional_sources": [
+    {
+      "source_url": "https://www.etsy.com/legal/terms-of-use",
+      "accessed": "2026-08-16",
+      "role": "Account age and honesty",
+      "quote": "You must be 18 years or older to use our Services. Minors under 18 and at least 13 years of age are only permitted to use our Services through an account owned by a parent or legal guardian with their appropriate permission and under their direct supervision. Be honest with us. Provide accurate information about yourself."
+    },
+    {
+      "source_url": "https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf",
+      "accessed": "2026-08-16",
+      "role": "US copyrightability of AI output",
+      "quote": "Copyright does not extend to purely AI-generated material, or material where there is insufficient human control over the expressive elements. Based on the functioning of current generally available technology, prompts do not alone provide sufficient control."
+    }
+  ],
+  "notes": "Creativity Standards last updated Jun 10, 2025; Terms of Use last updated Aug 26, 2025 on the fetched pages."
+}

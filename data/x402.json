@@ -1,0 +1,32 @@
+{
+  "platform": "x402",
+  "slug": "x402",
+  "account_creator": "x402 is an open HTTP payment protocol, not a hosted marketplace account. The whitepaper states it removes the need for API keys, accounts, and subscriptions. The party that can receive funds is the holder of the payTo wallet address. A human (or a legal entity authorized operator) must control that wallet; an AI agent may attach a signed payment but should not be treated as the account owner of a bank-style payout identity.",
+  "ai_content_allowed": "yes",
+  "disclosure_rule": "Designed for AI agents to pay autonomously. A 402 response may include a description of the resource. Wallet confirmation screens are specified to show the request domain, payment amount, token, and resource. There is no AI-content publishing label; x402 is a payment rail.",
+  "payout_kyc": "Onchain settlement to a wallet. The whitepaper states: no PCI compliance required for developers unless a facilitator accepts cards directly; no reliance on banks or third-party approvals. Payments settle onchain (example given: about 200 ms on Base) and are described as not reversible / no chargebacks. This is not a substitute for KYC on any fiat on-ramp or hosted facilitator you choose to use.",
+  "copyright_notes": "The whitepaper does not grant copyright in paid content. USCO Part 2 (January 2025) still applies to any literary or artistic work delivered after an x402 payment: purely AI-generated material is not copyrightable; prompts alone are not enough.",
+  "human_must": [
+    "Control the receiving wallet (and any facilitator account) as a human or authorized entity operator.",
+    "Decide whether a hosted facilitator re-introduces KYC or card-network rules.",
+    "Do not treat protocol-level no-account as permission for an AI to open bank or exchange accounts."
+  ],
+  "source_url": "https://x402.org/wp-content/uploads/sites/10/2026/06/x402-whitepaper.pdf",
+  "accessed": "2026-08-16",
+  "quote": "With this simple protocol, x402 removes the need for API keys, accounts, and subscriptions. x402 enables any API or content provider to accept pay-per-use payments through a lightweight middleware that integrates seamlessly into existing infrastructures.",
+  "additional_sources": [
+    {
+      "source_url": "https://x402.org/wp-content/uploads/sites/10/2026/06/x402-whitepaper.pdf",
+      "accessed": "2026-08-16",
+      "role": "No PCI / no bank approval (protocol-level)",
+      "quote": "No PCI compliance required for developers, unless a facilitator chooses to accept card payments directly. No reliance on banks or third-party approvals, ensuring global, permissionless access."
+    },
+    {
+      "source_url": "https://x402.org/wp-content/uploads/sites/10/2026/06/x402-whitepaper.pdf",
+      "accessed": "2026-08-16",
+      "role": "Agent-native payments",
+      "quote": "x402 is an open payment standard that enables AI agents and web services to autonomously pay for API access, data, and digital services."
+    }
+  ],
+  "notes": "Whitepaper dated May 6, 2025; PDF hosted under /2026/06/ on x402.org as fetched 2026-08-16."
+}

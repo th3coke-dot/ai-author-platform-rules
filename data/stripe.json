@@ -1,0 +1,32 @@
+{
+  "platform": "Stripe",
+  "slug": "stripe",
+  "account_creator": "An individual or a legal entity (company, non-profit, or, in the US, government entity) that will receive funds. Connect platforms collect information about the legal entity and about the representative and beneficial owners. An AI agent cannot complete KYC or be the payout recipient.",
+  "ai_content_allowed": "not_applicable",
+  "disclosure_rule": "Stripe is a payments infrastructure, not a publishing marketplace. It does not host user-authored creative works and has no AI-content disclosure rule for books, packages, or listings. Identity and business information submitted for KYC must be accurate.",
+  "payout_kyc": "Know Your Customer (KYC) is required before Stripe can pay out. Stripe collects and verifies information about the individual or company receiving funds, and may require a scan of a valid government-issued ID and/or a proof-of-address document. Requirements vary by country, capabilities, and business type. Europe KYC/UBO updates: new requirements start 1 April 2026 for platforms that only have connected accounts with business type individual, and 1 May 2026 for platforms that have company connected accounts. Stripe continues updating the API through 1 April 2026.",
+  "copyright_notes": "Stripe fetched identity-verification docs do not allocate copyright in customer content. If you sell AI-authored work and collect payment via Stripe, US copyright still follows USCO Part 2 (January 2025): raw AI output is not copyrightable; prompts alone are not enough.",
+  "human_must": [
+    "Complete Stripe identity verification as the individual recipient or as the authorized representative of the legal entity.",
+    "Provide government ID and any requested business, tax, and beneficial-owner information.",
+    "Keep verification current when Stripe rolls out new currently_due requirements (including the 2026 Europe individual-account updates)."
+  ],
+  "source_url": "https://docs.stripe.com/connect/identity-verification",
+  "accessed": "2026-08-16",
+  "quote": "Every country has its own requirements that accounts must meet so that Stripe can pay out funds to individuals and companies. These are typically known as Know Your Customer (KYC) requirements. Regardless of the country, broadly speaking, the requirements Stripe must meet are: Collecting information about the individual or company receiving funds; Verifying information to establish that we know who our customers are.",
+  "additional_sources": [
+    {
+      "source_url": "https://docs.stripe.com/connect/upcoming-requirements-updates",
+      "accessed": "2026-08-16",
+      "role": "April 2026 individual-account requirement updates",
+      "quote": "April 1, 2026 | New requirements start for platforms that only have connected accounts with business type individual. Make sure that your updated onboarding flow is ready to collect the new requirements. You need to have your updated flow working by April 1, when Stripe begins rolling out the new requirements. All of the new requirements will become active by the end of April."
+    },
+    {
+      "source_url": "https://docs.stripe.com/connect/identity-verification",
+      "accessed": "2026-08-16",
+      "role": "Government ID may be required",
+      "quote": "In other cases, Stripe might require additional information, including, for example, a scan of a valid government-issued ID, a proof of address document, or both."
+    }
+  ],
+  "notes": "Stripe is the KYC rail under GitHub Sponsors, Gumroad bank payouts, and Polar Connect."
+}

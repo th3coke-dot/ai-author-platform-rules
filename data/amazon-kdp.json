@@ -1,0 +1,40 @@
+{
+  "platform": "Amazon KDP",
+  "slug": "amazon-kdp",
+  "account_creator": "A human Amazon account holder. Account Details must use the legal name of the author or publishing company (not a pen name). Business type is individual or corporation. For corporations and other non-individual entities, an authorized representative details are entered. KDP may require government-ID identity verification to confirm the account is genuine.",
+  "ai_content_allowed": "yes_with_conditions",
+  "disclosure_rule": "You must inform Amazon of AI-generated content (text, images, or translations) when you publish a new book or republish edits. AI-generated includes cover and interior images, and still counts if you applied substantial edits afterwards. AI-assisted content (you created the work and used AI only to edit, refine, error-check, brainstorm, or generate ideas) does not need to be disclosed. You remain responsible for IP compliance of both AI-generated and AI-assisted content.",
+  "payout_kyc": "Legal name on the account is the name used for payments and tax forms. Add a bank account whose holder name matches bank records (direct deposit, wire, or check; not PayPal). Complete a tax profile; Amazon requires valid taxpayer identification from all publishers, including nonprofits. When identity verification is requested: government-issued ID (passport or driver license), matching name and country, and a selfie. Publishing features are restricted until verification completes.",
+  "copyright_notes": "Authors, publishers, and selling partners must ensure content does not violate copyright or other rights. KDP will not accept copyrighted content that is freely available on the web unless provided by the copyright owner. USCO Part 2 (January 2025): purely AI-generated material is not copyrightable; prompts alone are not enough. Disclosing AI use to KDP does not create a US copyright.",
+  "human_must": [
+    "Create the KDP/Amazon account under the legal name of the author or company.",
+    "Complete tax profile and bank details as that human or authorized representative.",
+    "Complete government-ID verification when KDP requests it (including a selfie).",
+    "Answer the AI-generated content questions honestly for every title.",
+    "Put any pen name only in book details, not in Account Details."
+  ],
+  "source_url": "https://kdp.amazon.com/help/topic/G200672390",
+  "accessed": "2026-08-16",
+  "quote": "We require you to inform us of AI-generated content (text, images, or translations) when you publish a new book or make edits to and republish an existing book through KDP. AI-generated images include cover and interior images and artwork. You are not required to disclose AI-assisted content.",
+  "additional_sources": [
+    {
+      "source_url": "https://kdp.amazon.com/help/topic/GH7TYHP6FR9QAUM9",
+      "accessed": "2026-08-16",
+      "role": "Identity verification / payout KYC",
+      "quote": "If requested, identity verification requires you to submit a government-issued ID, such as a passport or driver’s license. The name and country in the Your Identity section on your account must match the name and country of your ID."
+    },
+    {
+      "source_url": "https://kdp.amazon.com/help/topic/G200620010",
+      "accessed": "2026-08-16",
+      "role": "Legal name and tax profile",
+      "quote": "The name provided in the Account Details should be the legal name of the author. We will issue your payments and tax forms under the same name. Amazon requires all publishers, including nonprofit or tax-exempt organizations, to provide valid taxpayer identification in order to comply with country-specific tax reporting regulations."
+    },
+    {
+      "source_url": "https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf",
+      "accessed": "2026-08-16",
+      "role": "US copyrightability of AI output",
+      "quote": "Copyright does not extend to purely AI-generated material, or material where there is insufficient human control over the expressive elements. Based on the functioning of current generally available technology, prompts do not alone provide sufficient control."
+    }
+  ],
+  "notes": "Official KDP Content Guidelines page fetched 2026-08-16 (Help topic G200672390)."
+}

@@ -1,0 +1,33 @@
+{
+  "platform": "Polar",
+  "slug": "polar",
+  "account_creator": "A Supplier (natural person or legal entity) who can enter Polar Master Services Terms. Polar does not knowingly collect personal information from children under 13. Every organization has exactly one owner, who is the legal/billing contact and must complete identity verification. An AI agent must not be the organization owner.",
+  "ai_content_allowed": "yes_with_conditions",
+  "disclosure_rule": "The fetched Merchant-of-Record and payout docs do not impose a public AI-content label. Supplier Information and Product Information must be correct and up to date. You warrant you are the owner of each Product or legally authorized to act for the owner, and you must not materially mislead a Buyer. Products must comply with Polar Acceptable Use Policy.",
+  "payout_kyc": "Before the first payout: (1) submit the account for approval; (2) the organization owner verifies identity with a passport, ID card, or driver license plus a selfie via Stripe Identity; (3) connect a payout account via Stripe Connect Express. Polar also collects tax identification information (for example IRS Forms W-8 and/or W-9) and may suspend payments if tax information is missing. Organizations created on or after 12 May 2026 have a default 7-day settlement delay before funds are available to pay out; older organizations keep instant payouts. Initial reviews can take up to 14 days. Polar issues 1099-K forms via Stripe to eligible US users.",
+  "copyright_notes": "Supplier retains ownership of the Product and Supplier Trademarks; Polar receives a license to market and resell as Merchant of Record. USCO Part 2 (January 2025): purely AI-generated material is not copyrightable; prompts alone are not enough.",
+  "human_must": [
+    "Be the organization owner (or authorized Supplier) and accept the Master Services Terms.",
+    "Complete Stripe Identity KYC (ID plus selfie) and Stripe Connect Express payout onboarding.",
+    "Provide tax identification (W-8/W-9 or equivalent) and a same-country bank account.",
+    "Submit the account for Polar first-payout review with accurate product and business information."
+  ],
+  "source_url": "https://polar.sh/docs/merchant-of-record/account-reviews",
+  "accessed": "2026-08-16",
+  "quote": "Identity verification (KYC). The organization owner verifies their identity with a passport, ID card, or driver's license along with a selfie — secure, easy, and quick through Stripe Identity.",
+  "additional_sources": [
+    {
+      "source_url": "https://polar.sh/docs/features/finance/payouts",
+      "accessed": "2026-08-16",
+      "role": "7-day settlement after 2026-05-12",
+      "quote": "Transactions are subject to a 7-day settlement delay from the date they occur before the corresponding funds become available for payout. This delay applies by default to organizations created on or after May 12, 2026. Organizations created before this date continue to receive instant payouts."
+    },
+    {
+      "source_url": "https://polar.sh/legal/terms",
+      "accessed": "2026-08-16",
+      "role": "Tax ID collection",
+      "quote": "In order to satisfy our tax obligations, we collect tax identification information and, in certain circumstances, report this information and payments to tax authorities as legally required. If you fail to provide up to date and accurate tax information, we reserve the right to suspend payments to your Payment Account and/or to terminate your Supplier Account."
+    }
+  ],
+  "notes": "Master Services Terms last updated March 25, 2026 on the fetched page."
+}

@@ -1,0 +1,32 @@
+{
+  "platform": "Gumroad",
+  "slug": "gumroad",
+  "account_creator": "Sellers 18 or older complete payout settings themselves. Sellers 13 to 17 need a legal guardian on the account (guardian route currently available in the United States). Choose Individual (own name / sole proprietor) or Business (registered entity; the account holder is the business representative). Use full legal name and a physical address (no PO boxes).",
+  "ai_content_allowed": "yes_with_conditions",
+  "disclosure_rule": "The official payout-settings help article fetched on 2026-08-16 does not state an AI-content disclosure rule. Treat AI-authored products as allowed only if they otherwise comply with Gumroad current terms and applicable law; do not invent a Gumroad AI label from this page. Re-read Gumroad current terms before publishing.",
+  "payout_kyc": "Bank payouts are processed by Stripe and follow Stripe KYC. Stripe will request some of: date of birth, legal name, phone number, address; a government ID number (for example SSN or national ID); a scan of a photo ID; company tax ID and business registration (if a business); proof of home address. US tax ID is usually an EIN, or SSN for individuals/sole proprietors. PayPal-only payouts require name, address, phone, and an active PayPal email, without ID upload. Payout settings are mandatory. Sellers 13-17 in the US add a guardian name, email, DOB, address, and personal ID number.",
+  "copyright_notes": "The fetched payout article does not allocate copyright. USCO Part 2 (January 2025): purely AI-generated material is not copyrightable; prompts alone are not enough. A human seller still owns the Gumroad account and is the payout identity.",
+  "human_must": [
+    "Open the Gumroad account and complete payout settings as the legal seller (or add a US legal guardian if 13-17).",
+    "Submit legal name, date of birth, physical address, government ID, and tax ID for bank payouts.",
+    "Do not ask an AI agent to upload identity documents or accept Stripe agreement."
+  ],
+  "source_url": "https://gumroad.com/help/article/260-your-payout-settings-page",
+  "accessed": "2026-08-16",
+  "quote": "Gumroad uses Stripe to process all credit card payments and bank payouts, and we are subject to Stripe’s policies and regulations. Stripe is required to follow Know Your Customer obligations which tailor account verifications by country. At some point, Stripe will request several of the following: Your date of birth, legal name, phone number, and address; A government ID number (e.g., SSN or your country’s national ID); A scan or image of your photo ID (passport, driver’s license, or ID).",
+  "additional_sources": [
+    {
+      "source_url": "https://gumroad.com/help/article/260-your-payout-settings-page",
+      "accessed": "2026-08-16",
+      "role": "Age and guardian",
+      "quote": "If you are 18 or older, you fill out these settings yourself. If you are 13 to 17, you also need a legal guardian on the account. You can sell on Gumroad from age 13. To be paid out, though, our payment partner has to verify whoever holds the payout account, and it will not verify someone under 18 on their own."
+    },
+    {
+      "source_url": "https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf",
+      "accessed": "2026-08-16",
+      "role": "US copyrightability of AI output",
+      "quote": "Copyright does not extend to purely AI-generated material, or material where there is insufficient human control over the expressive elements. Based on the functioning of current generally available technology, prompts do not alone provide sufficient control."
+    }
+  ],
+  "notes": "AI-content policy was not stated on the fetched payout-settings page; omitted rather than invented."
+}

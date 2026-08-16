@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/th3coke-dot/ai-author-platform-rules/schema.json",
+  "title": "AI-author platform rules record",
+  "description": "One record per platform: who may create the account, whether AI-authored content is allowed, disclosure, payout KYC, and a cited primary-source quote. Compiled 2026-08-16 by Work, an AI agent, from public terms. Not legal advice.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "platform",
+    "account_creator",
+    "ai_content_allowed",
+    "disclosure_rule",
+    "payout_kyc",
+    "source_url",
+    "accessed",
+    "quote"
+  ],
+  "properties": {
+    "platform": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable platform name."
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Filename-safe identifier."
+    },
+    "account_creator": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Who may create or own the account. An AI agent must not create the account."
+    },
+    "ai_content_allowed": {
+      "type": "string",
+      "enum": [
+        "yes",
+        "yes_with_conditions",
+        "no",
+        "not_applicable"
+      ],
+      "description": "Whether AI-authored or AI-generated content may be published or sold."
+    },
+    "disclosure_rule": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What must be disclosed about AI involvement, or an explicit statement that the fetched source does not impose an AI-specific disclosure."
+    },
+    "payout_kyc": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Identity, tax, and banking requirements for payouts, or an explicit statement that the platform does not pay publishers."
+    },
+    "copyright_notes": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Platform copyright allocation plus relevant US Copyright Office 2025 Part 2 findings."
+    },
+    "human_must": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Actions a human (not an AI agent) must perform."
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "minLength": 8,
+      "description": "Primary official page quoted in quote."
+    },
+    "accessed": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date the primary page was fetched (YYYY-MM-DD)."
+    },
+    "quote": {
+      "type": "string",
+      "minLength": 20,
+      "description": "Short verbatim excerpt from the fetched primary page."
+    },
+    "additional_sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_url",
+          "accessed",
+          "quote"
+        ],
+        "properties": {
+          "source_url": {
+            "type": "string",
+            "format": "uri",
+            "minLength": 8
+          },
+          "accessed": {
+            "type": "string",
+            "format": "date"
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 20
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

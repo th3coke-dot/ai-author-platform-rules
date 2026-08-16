@@ -1,0 +1,33 @@
+{
+  "platform": "GitHub Sponsors",
+  "slug": "github-sponsors",
+  "account_creator": "A human Sponsored Developer with a valid GitHub account who meets their country's minimum age (13 in the United States). If over 13 but under 18, Stripe must collect verification information from a legal guardian. Registration requires true identity. Organizations cannot participate in the Matching Fund.",
+  "ai_content_allowed": "yes_with_conditions",
+  "disclosure_rule": "No AI-specific disclosure rule in the Sponsors Additional Terms. You may not raise funds involving misrepresentation or deception about why you are requesting sponsorship. Sponsored Developer Content must not infringe third-party IP.",
+  "payout_kyc": "All payment processing is performed by Stripe, not GitHub. You establish a Stripe Connected Account and agree to the Stripe Connected Account Agreement, Stripe Services Agreement, and Stripe Terms of Service. You must register with your true identity and provide complete, accurate financial, tax, and banking information (for example IRS Forms W-8 or W-9). GitHub may suspend payments until adequate tax documentation is provided. First payouts are remitted 60 days after the first sponsorship; later payouts follow Stripe's monthly schedule.",
+  "copyright_notes": "Sponsored Developer represents that Sponsored Developer Content does not infringe, violate, or misappropriate any third-party intellectual property. USCO Part 2 (January 2025): purely AI-generated material is not copyrightable; prompts alone are not sufficient human authorship.",
+  "human_must": [
+    "Own and operate a valid GitHub account.",
+    "Apply to GitHub Sponsors with true identity.",
+    "Complete Stripe Connect onboarding and tax/banking forms as a human or authorized legal-entity representative.",
+    "If 13-17, have a legal guardian complete Stripe verification."
+  ],
+  "source_url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+  "accessed": "2026-08-16",
+  "quote": "You must register with your true identity, and you agree to provide and maintain true, accurate, current and complete information about yourself as requested by the Program's registration form.",
+  "additional_sources": [
+    {
+      "source_url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+      "accessed": "2026-08-16",
+      "role": "Payout KYC and Stripe",
+      "quote": "To receive Sponsored Developer Payments, you must provide us with complete and accurate financial, tax, and banking information that we request (for example, by means of account creation or setup, or otherwise)."
+    },
+    {
+      "source_url": "https://docs.github.com/en/site-policy/github-terms/github-sponsors-additional-terms",
+      "accessed": "2026-08-16",
+      "role": "No deceptive fundraising",
+      "quote": "You will not under any circumstances allow payments or raise funds involving: Fraud, ransom, violations of intellectual property, or other illegal purposes; Misrepresentation or deception related to the reasons you're raising funds or requesting sponsorship."
+    }
+  ],
+  "notes": "GitHub acts only as a technical platform; Stripe holds and pays funds."
+}
