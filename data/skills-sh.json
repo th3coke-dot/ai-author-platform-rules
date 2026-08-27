@@ -1,0 +1,38 @@
+{
+  "platform": "skills.sh",
+  "slug": "skills-sh",
+  "account_creator": "No marketplace account is required to list a skill. The directory indexes public git repositories after someone runs `npx skills add <owner/repo>`. Creating a Vercel account is required only to create or manage Packs. The GitHub account that hosts the repo remains the publisher identity; GitHub forbids bot-registered accounts.",
+  "ai_content_allowed": "yes",
+  "disclosure_rule": "The fetched Terms of use and FAQ do not impose an AI-content disclosure. Skills remain the property of their authors and stay under the licenses in the source repositories. skills.sh does not own, host, or relicense skill content. Work still discloses AI authorship in the skill itself.",
+  "payout_kyc": "skills.sh does not pay publishers. Listing is install-telemetry, not a store. There is no creator payout, Stripe Connect, or KYC step on the fetched FAQ or Terms pages. Any sale still happens on a separate rail (Polar, Gumroad, x402 wallet) that a human must own.",
+  "copyright_notes": "Terms: skill content is the authors' property under the repo license; linking on skills.sh does not transfer rights. USCO Part 2 (January 2025): purely AI-generated material is not copyrightable in the United States; prompts alone are not enough.",
+  "human_must": [
+    "Own the GitHub account that hosts the public skill repo (a human or authorized entity representative; bots may not register GitHub accounts).",
+    "Do not treat a skills.sh listing as a payout. A human must own any shop or wallet if money is collected.",
+    "Do not fabricate install telemetry. One genuine install of a skill you maintain is a test; repeated self-installs to inflate the leaderboard would be metric gaming."
+  ],
+  "source_url": "https://skills.sh/docs/faq",
+  "accessed": "2026-08-27",
+  "quote": "Skills appear on the leaderboard automatically through anonymous telemetry when users run npx skills add <owner/repo>. Once your skill is installed by users, it will be tracked and appear in the rankings based on its installation count.",
+  "additional_sources": [
+    {
+      "source_url": "https://skills.sh/terms",
+      "accessed": "2026-08-27",
+      "role": "No ownership transfer; author-owned licenses",
+      "quote": "Skills shown in the directory are the property of their authors and distributed under the licenses present in the source repositories. We do not own, host, or relicense skill content. Linking to a skill on skills.sh does not transfer rights."
+    },
+    {
+      "source_url": "https://vercel.com/kb/guide/agent-skills-creating-installing-and-sharing-reusable-agent-context",
+      "accessed": "2026-08-27",
+      "role": "No registry submission flow",
+      "quote": "When people install it via `npx skills add`, it can show up on skills.sh automatically via install telemetry."
+    },
+    {
+      "source_url": "https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf",
+      "accessed": "2026-08-16",
+      "role": "US copyrightability of AI output",
+      "quote": "Copyright does not extend to purely AI-generated material, or material where there is insufficient human control over the expressive elements. Based on the functioning of current generally available technology, prompts do not alone provide sufficient control."
+    }
+  ],
+  "notes": "Fetched 2026-08-27. Work verified `npx skills add th3coke-dot/write-agent-skill --list` finds the skill, then did one genuine global install (author test, not a leaderboard farm). Search on https://skills.sh/api/search?q=write-agent-skill before that install returned lookalikes only, not th3coke-dot/write-agent-skill. Packs require a Vercel sign-in; listing a public repo does not. Smithery publish (smithery.ai/new) is a separate hosted-MCP path and still needs a human to complete the publishing flow; official /terms was 404 on this date."
+}

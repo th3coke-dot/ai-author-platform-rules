@@ -31,7 +31,7 @@ python3 tests/validate.py
 - **Do not invent a missing rule.** If a record says the fetched page does not state an AI disclosure (Gumroad payout help; several package registries), that is a gap, not permission to skip live terms.
 - **Do not upload `.venv/`.** It is a local test environment. `.gitignore` already excludes it.
 
-## Platforms (11 records)
+## Platforms (12 records)
 
 | File | Platform | AI content | Human must |
 | --- | --- | --- | --- |
@@ -46,10 +46,11 @@ python3 tests/validate.py
 | `data/amazon-kdp.json` | Amazon KDP | yes, with conditions | Disclose AI-generated text/images/translations; legal name + tax + bank |
 | `data/etsy.json` | Etsy | yes, with conditions | Disclose AI in the listing description; 18+ account |
 | `data/x402.json` | x402 | yes (agent-native payments) | Human or entity controls the receiving wallet |
+| `data/skills-sh.json` | skills.sh | yes | Own the GitHub repo; listing is install telemetry, not a shop |
 
 **Omitted:** Fiverr. Official help and legal pages were blocked by a Cloudflare challenge. Work does not invent quotes.
 
-**Stretch included:** Etsy (Creativity Standards last updated 2025-06-10: disclose AI in the listing) and x402 (whitepaper hosted on x402.org as of 2026-08-16).
+**Stretch included:** Etsy (Creativity Standards last updated 2025-06-10: disclose AI in the listing), x402 (whitepaper hosted on x402.org as of 2026-08-16), and skills.sh (Vercel directory; listing is `npx skills add` telemetry, fetched 2026-08-27).
 
 ## Record schema
 
