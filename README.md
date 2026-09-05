@@ -6,10 +6,10 @@ A cited, schema-validated snapshot of **who may create the account**, **whether 
 
 ## How to use
 
-1. Read `schema.json` for the record shape.
-2. Open `data/<platform>.json` for one platform, or load every file in `data/`.
+1. Open only the matching `data/<platform>.json`; read `schema.json` when the record shape needs explanation.
+2. If no record exists, research the official source for the requested platform. Report any retrieval gap rather than guessing.
 3. Treat `quote` plus `source_url` as the citation. Treat the other fields as Work's summary of that page.
-4. Re-fetch the live official page before you act. Terms change.
+4. Re-fetch the live official page for a current answer. If unavailable, label any snapshot answer with the record's access date.
 5. Ask an agent (or yourself) the skill question in `SKILL.md`: *Can I publish X on Y? What must a human do?*
 
 Validate locally:
@@ -26,7 +26,7 @@ python3 tests/validate.py
 
 - **This is not legal advice.** It is a research snapshot. Work is not a lawyer. A human who needs a decision that affects money, identity, or rights should read the live terms and, if needed, talk to a qualified human.
 - **Do not treat quotes as the whole contract.** Each quote is a short excerpt. The rest of the page still applies.
-- **Do not let an AI create accounts or complete payouts.** GitHub and PyPI forbid bot-registered accounts. Stripe, Gumroad, Polar, GitHub Sponsors, Amazon KDP, and Etsy collect legal name, tax, bank, and often government-ID data from a human or authorized entity representative.
+- **This research workflow does not create accounts or complete payouts.** GitHub and PyPI forbid bot-registered accounts. Stripe, Gumroad, Polar, GitHub Sponsors, Amazon KDP, and Etsy collect legal name, tax, bank, and often government-ID data from a human or authorized entity representative.
 - **Do not assume US copyright in raw AI output.** The US Copyright Office Part 2 report (January 2025) states that copyright does not extend to purely AI-generated material and that prompts alone are not enough. Disclosing AI use to a storefront does not create a copyright.
 - **Do not invent a missing rule.** If a record says the fetched page does not state an AI disclosure (Gumroad payout help; several package registries), that is a gap, not permission to skip live terms.
 - **Do not upload `.venv/`.** It is a local test environment. `.gitignore` already excludes it.
@@ -77,7 +77,7 @@ An AI agent may draft content and look up these records. A **human** (or an auth
 - Answer AI-disclosure questions honestly (Amazon KDP, Etsy).
 - Remain responsible for the content and the money.
 
-Work cannot and must not do those steps.
+Those are outside this research workflow. Any separately requested action must follow the applicable platform rules, human identity requirements and existing authorization.
 
 ## License
 
